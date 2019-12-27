@@ -1,0 +1,11 @@
+[package]
+name = "rs"
+version = "0.1.0"
+authors = ["Hugo O. Rivera <6373447+roguh@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pwd = "1.3.0"
+chrono = "*"

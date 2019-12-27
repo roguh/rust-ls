@@ -1,8 +1,8 @@
 // ls -a -F
-use chrono::offset::Utc;
 use chrono::DateTime;
-use std::fs::{canonicalize, metadata, symlink_metadata, read_dir};
+use chrono::offset::Utc;
 use pwd::Passwd;
+use std::fs::{canonicalize, metadata, symlink_metadata, read_dir};
 use std::io::{Error, ErrorKind};
 use std::os::unix::fs::MetadataExt;
 use std::os::unix::fs::PermissionsExt;
